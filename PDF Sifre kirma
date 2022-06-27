@@ -7,3 +7,27 @@ depomuzun güncel olmasi lazim
 apt update
 
 apt install libssl-dev
+
+git clone https://github.com/magnumripper/JohnTheRipper
+klosör seklinde yardimci araci indiriyor.
+
+cd JohnTheRipper
+cd run
+ls
+ile listeledik ve kullnacagim arac:
+pdf2john.pl
+
+cd ../../
+ile masaüstü dizinine geldik
+
+sifreli dosyayi masaüstüne atmistik ve komuttan sonra dosyanin yolunu yaziyoruz.
+
+perl pdf2john.pl /root/masaüstü/sifreliDosya.pdf > /root/masaüstü/hash.txt
+john hash.txt
+
+sifre hash.txt dosyasina kaydedildi.
+
+sifreyi görmek icin:
+john hast.txt --show
+
+sifrenini uzunluguna ve zorluguna göre saatler aylar alabilir.
