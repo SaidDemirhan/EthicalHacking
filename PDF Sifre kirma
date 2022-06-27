@@ -1,0 +1,9 @@
+Kali linux üzerinden Cmd yi aciyoruz
+
+cd masaüstü
+
+depomuzun güncel olmasi lazim
+
+apt update
+
+apt install libssl-dev
