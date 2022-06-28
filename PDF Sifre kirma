@@ -1,4 +1,4 @@
-Kali linux üzerinden Cmd yi aciyoruz
+Kali linux üzerinden Cmd yi aciyoruz:
 
 cd masaüstü
 
@@ -31,3 +31,4 @@ sifreyi görmek icin:
 john hast.txt --show
 
 sifrenini uzunluguna ve zorluguna göre saatler aylar alabilir.
+
